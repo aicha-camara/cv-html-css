@@ -1,0 +1,206 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+}
+html {
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+header .title {
+    color: #ea1f33;
+    font-size: 25px;
+    font-weight: bold;
+}
+header .title span {
+    color: #000;
+}
+    .barre {
+    display: flex;
+}
+    .barre li {
+    list-style: none;
+    margin: 0 15px;
+}
+    .barre li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    transition: 0.2s;
+}
+    .barre li a:hover {
+    color: #ea1f33;
+}
+  /*css du home image + texte a gauche*/
+
+#home {
+        margin-top: 30px;
+        height: calc(100vh - 50px);
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        border-bottom: 20px solid #ea1f33
+    }
+    
+    #home .left {
+        width: 40%;
+    }
+    #home .left h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    #home .left h1 span {
+        color: #ea1f33;
+    }
+    #home .left p {
+        margin-bottom: 30px;
+        color: #999;
+        font-size: 20px;
+    }
+    #home .left a {
+        background-color: #ea1f33;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: #fff;
+        transition: 0.5s;
+    }
+    #home .left a:hover {
+        background-color: #000;
+    }
+    #home .right {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-color: #000000;
+    }
+    #home .right img {
+        width: 100%;
+    }
+  /*css contact*/
+
+    #contact{
+        margin-top: 40px;
+        height: 150px;
+        padding: 0 8%;
+    }
+        .info h2{
+        font-size: 20px;
+        
+        }
+  /*css experience*/
+
+#experience{
+        margin-top: 50px;
+        height: 300px;
+        padding: 0 8%;
+
+    }    
+    .section_title{
+
+    color: #ea1f33;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+
+    .nom{
+    color: #841e28;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1%;
+
+  }
+
+    .date{
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 1%;
+
+
+ }
+    .contenu ul{
+        list-style: square;
+        color: #503e05aa;
+        font-size: 20px;
+        margin-bottom: 5%;
+
+    }
+    /*css formation*/ 
+
+#formation{ 
+    padding: 0 0%;
+
+}
+     section .title{
+    color: #841e28;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+     section .title span {
+    color: #000000; 
+    font-size: 21px;
+
+}
+    /*css competence*/ 
+
+#competences{
+        padding: 0 0%;
+}
+    ol{
+    list-style:circle;
+    font-size: 20px;
+    margin-bottom: 5%;
+
+}
+    /*css des liens*/ 
+
+.lien{
+    background-color: #e2d2d3;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.lien a{
+    text-decoration: none;
+    color: black
+
+}
+
+  /* css Scrollbar*/
+    
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ea1f33;
+}
